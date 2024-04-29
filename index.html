@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script defer src="javascript.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Number guessing game!</h1>
+  <div id="lockIn">
+    <label>Select your difficulty</label>
+    <select name="difficulty" id="diff">
+      <option value="easy">Easy</option>
+      <option value="normal">Normal</option>
+      <option value="hard">Hard</option>
+    </select>
+    <button onclick="startFunc()" id="click">Start!</button> 
+  </div>
+  <div id="game" style="display: none;">
+    <h2>Directions</h2>
+    <p></p>
+    <p></p>
+    <p>I'll tell you if youre guess was above, or below the number you are trying to guess correctly</p>
+    <input type="number" name="toGuess" id="userGuess">
+    <button onclick="GuessFunc()" >Guess</button> 
+    <p style="font-weight: bold;"></p>
+  </div>
+</body>
+</html>
