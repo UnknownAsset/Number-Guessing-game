@@ -13,7 +13,7 @@ function startFunc() {
   div1.style.display = "none";
   div2.style.display = "";
   DefineDiff();
-  let numRando = getRandomInt(0, maxNum);
+  const numRando = getRandomInt(0, maxNum);
   div2.children[6].innerHTML = `You have ${attempts} attempts left`
 
 }
