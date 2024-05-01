@@ -4,7 +4,7 @@ var div1 = document.getElementById("lockIn");
 var div2 = document.getElementById("game");
 var guess = document.getElementById("userGuess");
 var attempts = 0;
-var attempted =0 ;
+var attempted =0;
 var maxNum = 0;
 var numRando = 0;
 
